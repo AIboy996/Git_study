@@ -1,4 +1,4 @@
-- [常用git命令清单](#常用git命令清单)
+- [常见git命令清单](#常见git命令清单)
   - [新建代码库](#新建代码库)
     - [在当前目录新建一个Git代码库](#在当前目录新建一个git代码库)
     - [新建一个目录，将其初始化为Git代码库](#新建一个目录将其初始化为git代码库)
@@ -96,7 +96,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# 常用git命令清单
+# 常见git命令清单
 转载自 阮一峰的网络日志 有部分删改
 https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 
