@@ -1,4 +1,4 @@
-# learngit
+# learn git
 learn how to git
 
 ### 最常用的几个命令
