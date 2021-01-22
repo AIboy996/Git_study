@@ -7,8 +7,9 @@ learn how to git
 
 ### 对应的注释
 这里只写命令行方式的注释
-```git
+
 ...or creat a new repository on the command line
+```bash
 git init   #初始化本地库
 
 git add README.md   #添加到暂存区
