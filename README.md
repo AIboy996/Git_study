@@ -5,34 +5,31 @@ learn how to git
 
 ![image](https://github.com/AIboy996/learngit/blob/master/%E6%96%B0%E5%BB%BA%E5%BA%93.bmp)
 
-### 最常用的几个命令
-
+### 对应的注释
+这里只写命令行方式的注释
 ```git
-1、初始化仓库
-git init
+...or creat a new repository on the command line
+git init   #初始化本地库
 
-2、链接远程库
-git remote add [name](一般设置为origin) [adress]
+git add README.md   #添加到暂存区
+    #由于在github上新建库的时候，我没有勾选生成README文件，所以新建的库完全是空的；而如果勾选了这个选项会自动生成README文件，并且生成默认分支main
 
-3、修改文件之后存入暂存区
-git add [file name]
+git commit -m "first commit"   #提交到工作区
 
-4、从暂存区提交到仓库区
-git commit -m [message]
+git branch -M main   #把分支名称改为main
+    #git的默认分支名称是master，经过提交文件后会自动生成master分支，但是   github的默认分支是main，为了统一故把本地库的分支也改为main
 
-5、推送到远程仓库——GitHub
-git push [remote] [branch]
+git remote add origin https://github.com/AIboy996/Python_study.git   #链接到远程库，也就是我在github上新建的库；这里的origin是可以自定义的远程库名称，一般就命名为origin
 
-第一次推送可以加上 -u参数
-git push -u [remote] [branch]
-由于远程库是空的，我们第一次推送master分支时，加上了-u参数，
-Git不但会把本地的master分支内容推送的远程新的master分支，
-还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
-
-6、把GitHub上的更新下载下来，并且合并
-git pull [remote] [branch]
-
-7、修改分支名称
-git branch -M main
-这是因为GitHub现在的默认初始分支由master改为main
+git push -u origin main   #把本地库的文件推到github（也就是远程库上）
+    #由于远程库是空的，我们第一次推送main分支时，加上了-u参数，Git不但会把本地的mian分支内容推送的远程新的main分支，还会把本地的main分支和远程的main分支关联起来，在以后的推送或者拉取时就可以简化命令。
+```
+###在这之后的工作
+```git
+1、修改了本地文件想要同步到github上
+首先  git add [name]
+之后  git commit -m [message]
+最后  git push origin main
+2、在github上修改了文件想要同步到本地
+只要  git pull origin main
 ```
