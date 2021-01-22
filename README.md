@@ -3,7 +3,7 @@ learn how to git
 
 ### GitHub给出的初始化方法
 
-![新建库](C:\Users\蕁\Desktop\新建库.bmp)
+![image](https://github.com/AIboy996/learngit/blob/master/%E6%96%B0%E5%BB%BA%E5%BA%93.bmp)
 
 ### 最常用的几个命令
 
