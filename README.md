@@ -1,13 +1,18 @@
 # learn git
 learn how to git
 
+### GitHub给出的初始化方法
+
+![新建库](C:\Users\蕁\Desktop\新建库.bmp)
+
 ### 最常用的几个命令
+
 ```git
 1、初始化仓库
 git init
 
 2、链接远程库
-git remote add [name一般设置为origin] [adress]
+git remote add [name](一般设置为origin) [adress]
 
 3、修改文件之后存入暂存区
 git add [file name]
@@ -26,4 +31,8 @@ Git不但会把本地的master分支内容推送的远程新的master分支，
 
 6、把GitHub上的更新下载下来，并且合并
 git pull [remote] [branch]
+
+7、修改分支名称
+git branch -M main
+这是因为GitHub现在的默认初始分支由master改为main
 ```
