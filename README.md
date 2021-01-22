@@ -42,9 +42,19 @@ git push -u origin main   #把本地库的文件推到远程库上
 
 之后  git commit -m [message]
 
-最后  git push origin main
+最后  git push [remove] [branch]
 
 2、在github上修改了文件想要同步到本地
 
-只要  git pull origin main
+只要  git pull [remote] [branch]
+
+3、想要删除某个文件
+
+首先  rm [name]
+
+之后  git rm [name]
+
+最后  git commit -m [message]
+
+同时  git push [remote] [branch]
 ```
