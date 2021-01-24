@@ -57,4 +57,11 @@ git push -u origin main   #把本地库的文件推到远程库上
 最后  git commit -m [message]
 
 同时  git push [remote] [branch]
+
+4、克隆一个库到本地
+
+直接  git clone [adress]
+
+可以是http协议，或者是ssh协议
+这样就可以拥有分布式仓库了！
 ```
